@@ -5,7 +5,8 @@ import { Observable } from 'rxjs';
 @Injectable({providedIn:"root"})
 export class LoginService {
 
-  baseUrl:string ="http://localhost:9090/login"
+  //baseUrl:string ="http://localhost:9090/login"
+  baseUrl:string ="http://18.117.134.100:9090/login"
 
   constructor(public httpClient:HttpClient) { }  // DI for HttpClient
 
