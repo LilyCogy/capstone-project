@@ -15,7 +15,14 @@ export class CustomerDashboardComponent implements OnInit{
         this.emailid=obj;
       }
   }
+  handleClick(event: Event){
+    alert(
+      'Successfully Booked'
+    )
+  }
   logout(): void {
     this.router.navigate(["login"],{skipLocationChange:true})
   }
+
+   
 }

@@ -13,4 +13,9 @@ export class AdminDashboardComponent {
   logout(): void {
     this.router.navigate(["login"],{skipLocationChange:true})
   }
+  handleClick(event: Event){
+    alert(
+      'Successfully Booked'
+    )
+  }
 }
